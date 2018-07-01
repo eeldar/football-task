@@ -47,5 +47,6 @@ INPUTS:
  - X - [T x Q x S] data matrix containing S time series for T trials and Q timepoints per trial
  - wind - length of window to use for each calculation of sequenceness 
  - maxgap - maximal time lag between time series to consider
+
 OUTPUTS:
  - seq - [maxgap x T x P x Q-wind] sequencesness for each time lag upto max gap, for each trial, for each pair of time series, for each starting timepoints
