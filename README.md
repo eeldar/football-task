@@ -32,6 +32,7 @@ INPUTS:
    - .stim - [1 x 4 x T] number of players of each type
    - .dectime - [1 x T] time avalailable for deliberation (1 or 2 seconds)
    - .distance - [1 x 4 x T] average distacne from center of screen for each player type
+
 OUTPUTS:
  - lik - [S x 1] log-likelihoods
  - latents - a structure with the following fields:
