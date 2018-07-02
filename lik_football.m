@@ -1,5 +1,5 @@
 function [lik, latents] = lik_football(P,data)
-    %   load
+    %   
     %   Likelihood function for a computational model of the football task 
     %   
     %   USAGE: [lik, latents] = lik_football(P,data)
