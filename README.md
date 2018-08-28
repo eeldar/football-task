@@ -53,4 +53,5 @@ OUTPUTS:
  - seq - [maxgap x T x P x Q-wind] sequencesness for each time lag upto maxgap, for each trial, for each pair of time series, for each starting timepoints
 ## Other scripts
 Utilities.timeseries: cluster-based timeseries premutation test
+
 Utilities.lineplot: plotting timeseries with standard errors
